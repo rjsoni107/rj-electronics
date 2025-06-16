@@ -1,0 +1,222 @@
+.wf-force-outline-none[tabindex="-1"]:focus {
+  outline: none;
+}
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+[text-split] {
+  opacity: 0;
+}
+
+html.w-editor [text-split] {
+  opacity: 1;
+}
+
+.line-wrapper {
+  overflow: hidden;
+}
+
+.line {
+  overflow: hidden;
+  position: relative;
+}
+
+.word {
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.2em;
+  padding-right: 0.07em;
+  transform-origin: bottom;
+  padding-top: 0.03em;
+}
+
+.w-webflow-badge {
+  display: none !important;
+}
+
+#webgl-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.atf-par .word {
+  margin-bottom: -0.6em;
+  padding-right: 0;
+}
+
+.work-graphic,
+.work-descr {
+  opacity: 0;
+}
+
+.is-active {
+  opacity: 1;
+}
+
+.email-here:hover .email-abs {
+  width: 100%;
+}
+
+.active-categ .bullet {
+  opacity: 0;
+}
+
+.signup-par .word {
+  padding-right: 0;
+}
+
+.center .r,
+.center .g,
+.center .b {
+  mix-blend-mode: screen !important;
+  background-blend-mode: darken !important;
+}
+
+.navbar {
+  transform: translate(0, -100%);
+}
+
+.cta-button {
+  transform: translate(0, -250%);
+}
+
+@media screen and (max-width: 479px) {
+  .word {
+    padding-right: 0.03em;
+  }
+}
+
+.overview-photo {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  overflow: hidden !important;
+}
+
+.phone-photo {
+  overflow: auto !important;
+}
+
+@media screen and (min-width: 480px) {
+  .blog-card-item:first-of-type {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .atf-full-filler {
+    pointer-events: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .html-embed-6.smoke-embed {
+    pointer-events: none !important;
+  }
+
+  #container {
+    pointer-events: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="b9815471-a90a-5fe3-40ba-5e49425a7f1b"] {
+    -webkit-transform: translate3d(0, 102%, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(0, 102%, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(0, 102%, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(0, 102%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+      rotateZ(0) skew(0, 0);
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2c5aedd8-fb5a-ae41-055e-6cdae7343805"] {
+    -webkit-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+      rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+      rotateZ(0) skew(0, 0);
+    transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+      rotateZ(0) skew(0, 0);
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2c5aedd8-fb5a-ae41-055e-6cdae7343801"] {
+    color: rgb(28, 41, 40);
+    background-color: rgb(243, 240, 237);
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2c5aedd8-fb5a-ae41-055e-6cdae7343808"] {
+    -webkit-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+      rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+      rotateZ(0) skew(0, 0);
+  }
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100%;
+}
+
+.diagonal {
+  background: linear-gradient(
+      to bottom left,
+      transparent calc(50% - 1px),
+      #553341 calc(50% - 1px),
+      #553341 50%,
+      transparent 50%
+    )
+    transparent;
+}
+.border-radius-100 {
+  border-radius: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-none {
+  display: none !important;
+}
+.justify-content-center {
+  justify-content: center;
+}
